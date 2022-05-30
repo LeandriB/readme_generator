@@ -22,7 +22,8 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ````
 
-## How to run this program
+## Installation
+
 
 
 ## Screenshot
@@ -32,4 +33,6 @@ THEN I am taken to the corresponding section of the README
 ## Attributions
 
 * [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [inquirer.js](https://www.npmjs.com/package/inquirer)
+
 

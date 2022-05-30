@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "readme_generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "The goal for this project was to generate a professional README.md that includes all the necessary components to help a user provide a high-quality README to their project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Leandri Beavis",
+  "license": "MIT",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandriB/readme_generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeandriB/readme_generator/issues"
+  },
+  "homepage": "https://github.com/LeandriB/readme_generator#readme"
 }
