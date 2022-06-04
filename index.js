@@ -8,12 +8,19 @@ const questions = [
         {
             type: "input",
             name: "title",
-            message: "What is the title of your project?"
+            message: "What is the title of your project? (Required)",
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log("Please enter the title of your project!");
+                }
+            }
         }, 
         {
             type: "input",
             name: "description",
-            message: "Describe your project?"
+            message: "Please describe your project?"
         }, 
         {
             type: "input",
@@ -34,12 +41,12 @@ const questions = [
             type: "list",
             name: "license",
             message: "What type of license is used for this project?",
-            choices: [
-                "MIT", 
+            choices: [ 
+                "Apache",
                 "ISC", 
-                "Apache", 
-                "Mozilla", 
-                "GPLv2",
+                "GNU GPLv2",
+                "MIT",
+                "Mozilla"
             ]
         },
         {
@@ -50,12 +57,41 @@ const questions = [
         {
             type: "input",
             name: "test",
-            message: "What are the testing protocols used for your project?"
+            message: "What are the testing protocols used for your project? (Required)",
+            validate: testInput => {
+                if (testInput) {
+                    return true;
+                } else {
+                    console.log("Please enter your testing protocols")
+                    return false;
+                }
+            }
         },
         {
             type: "input", 
-            name: "questions",
-            message: "List any questions that have come up for this project:"
+            name: "email",
+            message: "What is the best email to reach you at? (Required)",
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                console.log('Please enter your email!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input", 
+            name: "github",
+            message: 'Enter your GitHub Username (Required)',
+            validate: githubInput => {
+                if (githubInput) {
+                    return true;
+                } else {
+                console.log('Please enter your GitHub username!');
+                    return false;
+                }
+            }
         }
     ]
 
@@ -69,7 +105,7 @@ const writeToFile = fileContent => {
             }
             resolve({
                 ok: true,
-                message: 'README generated!'
+                message: 'README was generated'
             });
         });
     });
