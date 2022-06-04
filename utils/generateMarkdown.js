@@ -32,10 +32,6 @@ function generateMarkdown(data) {
 
   Run the following command in your terminal in order to clone this repo:
 
-  ```` 
-  git clone ${data.clone} 
-  ````
-
   ## Usage
   
   ${data.usage}
