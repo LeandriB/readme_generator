@@ -44,7 +44,7 @@ const questions = [
             choices: [ 
                 "Apache",
                 "ISC", 
-                "GNU GPLv2",
+                "GNU GPLv3",
                 "MIT",
                 "Mozilla"
             ]
@@ -83,12 +83,12 @@ const questions = [
         {
             type: "input", 
             name: "github",
-            message: 'Enter your GitHub Username (Required)',
+            message: 'Enter your github link (Required)',
             validate: githubInput => {
                 if (githubInput) {
                     return true;
                 } else {
-                console.log('Please enter your GitHub username!');
+                console.log('Please enter the link to your github!');
                     return false;
                 }
             }
