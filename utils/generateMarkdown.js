@@ -74,7 +74,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions, please contact me at my[email](${data.email}). You can find more of my work on my GitHub at [LeandriB](${data.github}). 
+  If you have any questions, please contact me at my [email](${data.email}). You can find more of my work on my GitHub at [LeandriB](${data.github}). 
 `;
 }
 

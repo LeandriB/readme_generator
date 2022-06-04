@@ -51,11 +51,6 @@ const questions = [
         },
         {
             type: "input",
-            name: "resources",
-            message: "List any resources used to create this project:"
-        },
-        {
-            type: "input",
             name: "test",
             message: "What are the testing protocols used for your project? (Required)",
             validate: testInput => {

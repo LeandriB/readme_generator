@@ -1,4 +1,4 @@
-# Professional README generator
+# README generator
 
 The goal for this project was to generate a professional README.md that includes all the necessary components to help a user provide a high-quality README to their project.
 
@@ -34,5 +34,6 @@ THEN I am taken to the corresponding section of the README
 
 * [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 * [inquirer.js](https://www.npmjs.com/package/inquirer)
+* [License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 
