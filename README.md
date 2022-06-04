@@ -2,6 +2,17 @@
 
 The goal for this project was to generate a professional README.md that includes all the necessary components to help a user provide a high-quality README to their project.
 
+## Contents
+
+  - [Acceptance Criteria](#acceptance_criteria)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Attributions](#attributions)
+  - [Questions](#questions)
+
 ## Acceptance Criteria
 
 ````
@@ -24,11 +35,35 @@ THEN I am taken to the corresponding section of the README
 
 ## Installation
 
+Run the following command in your terminal in order to clone this repo:
 
+`npm install`
 
-## Screenshot
+## Usage
 
-![Preview](PLACE PROJECT SCREENSHOT HERE)
+![Preview](./images/preview.png)
+
+## Contributing
+
+In order to contribute, create a pull request and follow the steps listed below:
+
+- Fork the repo
+- Create a feature branch (git checkout -b NAME-HERE)
+- Commit your new feature (git commit -m 'Add some feature')
+- Push your branch (git push)
+- Create a new Pull Request
+
+Following a code review, your feature will be merged.
+
+## Tests
+
+No testing protocols were implemented in this application
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This application is licensed under the MIT License.
 
 ## Attributions
 
@@ -36,4 +71,7 @@ THEN I am taken to the corresponding section of the README
 * [inquirer.js](https://www.npmjs.com/package/inquirer)
 * [License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
+## Questions
+
+If you have any questions, please contact me at my [email](mailto:leandrikuyk@gmail.com?subject=%20README%20Generator). You can find more of my work on my GitHub at [LeandriB](https://github.com/LeandriB). 
 
