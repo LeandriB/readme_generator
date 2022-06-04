@@ -1,36 +1,52 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// Function that returns the license section of README
+function renderLicenseBadge(license) {
+  let badge = "";
+  switch (license) {
+    case "Apache":
+      badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+      break;
+    case "ISC":
+      badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+      break;
+    case "GNU GPLv2":
+      badge = "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
+      break;
+    case "MIT":
+      badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      break;
+    case "Mozilla":
+      badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+      break;
+    default:
+      badge = "";
+      break;
+  }
+  return badge;
+}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   return `
   
   # ${data.title}
+    ${renderLicenseBadge(data.license)}
 
     ${data.description}
 
   ## Contents
 
   - [Installation](#installation)
-  - [Screenshot](#screenshot)
-  - [Attributions](#attributions)
+  - [Usage](#usage)
+  - [Resources](#Resources)
   - [Tests](#test)
   - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
 
-  ${data.installation}
-
   Run the following command in your terminal in order to clone this repo:
+
+  ${data.installation}
 
   ## Usage
   
@@ -58,11 +74,11 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+  This application is licensed under the ${data.license} License
 
   ## Questions
 
-  ${data.questions}
+  If you have any questions, please contact me at ${data.email}. You can find more of my work on my GitHub at ${data.github}. 
 `;
 }
 
