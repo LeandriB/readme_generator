@@ -43,6 +43,8 @@ Run the following command in your terminal in order to clone this repo:
 
 ![Preview](./images/preview.png)
 
+Link to [walkthrough](https://youtu.be/IeyOCkKvdhw) video.
+
 ## Contributing
 
 In order to contribute, create a pull request and follow the steps listed below:
