@@ -70,8 +70,11 @@ This application is licensed under the MIT License.
 ## Attributions
 
 * [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [switch statements](https://javascript.info/switch)
 * [inquirer.js](https://www.npmjs.com/package/inquirer)
 * [License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+* [Starter Code](https://github.com/coding-boot-camp/potential-enigma)
+
 
 ## Questions
 
