@@ -41,7 +41,7 @@ Run the following command in your terminal in order to clone this repo:
 
 ## Usage
 
-![Preview](./images/preview.png)
+![Preview](./dist/images/preview.png)
 
 Link to [walkthrough](https://youtu.be/IeyOCkKvdhw) video.
 
